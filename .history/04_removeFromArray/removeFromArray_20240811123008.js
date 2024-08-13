@@ -3,7 +3,6 @@ const removeFromArray = function (array, ...args) {
 	for (let i = args.length; i >= 0; i--) {
 		console.log(i);
 		newArray = array.filter((item) => item !== args[i]);
-		console.log(newArray);
 	}
 	console.log(newArray);
 };
